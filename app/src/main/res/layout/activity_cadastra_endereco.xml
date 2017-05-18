@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cadastra_endereco"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.fiap.taxi.CadastraEnderecoActivity">
+
+    <EditText
+        android:id="@+id/edtCidade"
+        style="@style/EditTextCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cidade"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/edtBairro"
+        style="@style/EditTextCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/bairro"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/edtEndereco"
+        style="@style/EditTextCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/endere_o"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/edtComplemento"
+        style="@style/EditTextCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/complemento"
+        android:inputType="textCapWords" />
+
+    <RadioGroup
+        android:id="@+id/rgTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comercial" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resid_ncial" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnGgravar"
+        style="@style/ButtonCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cadastrarEndereco"
+        android:text="@string/gravar" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/fiap_taxi_rodape" />
+
+</LinearLayout>

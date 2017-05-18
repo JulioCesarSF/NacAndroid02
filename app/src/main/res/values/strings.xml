@@ -1,0 +1,20 @@
+<resources>
+    <string-array name="chaves">
+        <item>CIDADE</item>
+        <item>BAIRRO</item>
+        <item>ENDERECO</item>
+        <item>COMPLEMENTO</item>
+        <item>TIPO</item>
+    </string-array>
+    <string name="app_name">Taxi</string>
+    <string name="cidade">Cidade</string>
+    <string name="bairro">Bairro</string>
+    <string name="endere_o">Endereço</string>
+    <string name="complemento">Complemento</string>
+    <string name="comercial">Comercial</string>
+    <string name="resid_ncial">Residêncial</string>
+    <string name="gravar">Gravar</string>
+    <string name="cadastre_tudo">Por favor, cadastre todas as informações!</string>
+    <string name="sucesso">Cadastro realizado com sucesso!</string>
+    <string name="carregou">Carregou!</string>
+</resources>
