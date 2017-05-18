@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string-array name="chaves">
         <item>CIDADE</item>
         <item>BAIRRO</item>
@@ -6,7 +6,7 @@
         <item>COMPLEMENTO</item>
         <item>TIPO</item>
     </string-array>
-    <string name="app_name">Taxi</string>
+    <string name="app_name">FIAP Taxi - Cadastro de Endereço</string>
     <string name="cidade">Cidade</string>
     <string name="bairro">Bairro</string>
     <string name="endere_o">Endereço</string>
